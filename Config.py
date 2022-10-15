@@ -2,14 +2,14 @@ import os
 
 class Config():
   #Get it from @botfather
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "5640837043:AAHSBVIgYeVUdhlFtAP3QOth8pPUb-ht8-U")
   # Your bot updates channel username without @ or leave empty
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "LaylaList")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "redxbotlist")
   # Heroku postgres DB URL
   DATABASE_URL = os.environ.get("DATABASE_URL", "")
   # get it from my.telegram.org
-  APP_ID = os.environ.get("APP_ID", )
-  API_HASH = os.environ.get("API_HASH", "")
+  APP_ID = os.environ.get("APP_ID", "9411723")
+  API_HASH = os.environ.get("API_HASH", "30fa091455c0548d77dc254f0bb705b0")
   # Sudo users( goto @LaylaRobot and send /id to get your id)
   SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "797768146").split()))
   SUDO_USERS.append(797768146)
