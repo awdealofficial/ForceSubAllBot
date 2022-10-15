@@ -6,7 +6,7 @@ class Config():
   # Your bot updates channel username without @ or leave empty
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "redxbotlist")
   # Heroku postgres DB URL
-  DATABASE_URL = os.environ.get("DATABASE_URL", "")
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://aman:aman@cluster0.chnpche.mongodb.net/?retryWrites=true&w=majority")
   # get it from my.telegram.org
   APP_ID = os.environ.get("APP_ID", "9411723")
   API_HASH = os.environ.get("API_HASH", "30fa091455c0548d77dc254f0bb705b0")
